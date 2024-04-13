@@ -234,7 +234,7 @@
   }
 
   .features {
-    height: 187vh;
+    height: fit-content;
     padding: 9rem 8rem;
   }
 
@@ -259,7 +259,7 @@
 
 @media only screen and (max-width: 531px) {
   .features {
-    height: 105vh;
+    height: fit-content;
     padding: 9rem 3rem;
   }
 }
@@ -290,6 +290,10 @@
   .header {
     padding: 2rem;
   }
+
+  .article {
+    padding: 4rem 2rem;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -301,7 +305,7 @@
   } */
 
   .features {
-    height: 100vh;
+    height: fit-content;
   }
 }
 
@@ -323,9 +327,8 @@
   .hero-img-bg-mobile {
     top: -1%;
   }
-
   .hero-info {
-    bottom: 0%;
+    bottom: -10%;
   }
 
   .primary-heading {
@@ -345,11 +348,15 @@
 
 @media only screen and (max-width: 380px) {
   .hero {
-    height: 95vh;
+    height: 110vh;
   }
 
   .hero-info {
     bottom: -17%;
+  }
+
+  .primary-heading {
+    font-size: 3.6rem;
   }
 
   /* .features {
@@ -373,15 +380,15 @@
   }
 
   .primary-heading {
-    font-size: 3.6rem;
+    font-size: 2.6rem;
   }
 
   .hero-text {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   .features {
-    height: 170vh;
+    height: fit-content;
   }
 
   .features-heading {

@@ -194,7 +194,7 @@ body {
 /* *********** */
 .features {
   background-color: var(--ligth-grey);
-  height: 90vh;
+  height: fit-content;
   padding: 9rem 6rem;
 }
 
@@ -213,7 +213,8 @@ body {
   line-height: 1.5;
 }
 
-.feature-box-cont {
+.feature-box-cont,
+.article-box-cont {
   margin-top: 6rem;
 
   display: grid;
@@ -242,4 +243,55 @@ body {
   color: var(--text-secondary);
   font-weight: 300;
   line-height: 1.5;
+}
+
+/* ************** */
+/* Section Article */
+/* ************** */
+
+.article {
+  height: fit-content;
+  padding: 4rem 6rem;
+}
+
+.article-header {
+  font-size: 2rem;
+  line-height: 1.1;
+  font-weight: 300;
+  transition: all 0.2s ease-in-out;
+}
+
+.article-cont {
+  box-shadow: 0.2rem 0.2rem 5rem #55555521;
+  padding-bottom: 2rem;
+}
+
+.author-name {
+  color: var(--text-secondary);
+  font-weight: 300;
+}
+
+.article-header:hover {
+  color: var(--primary-color);
+}
+.article-img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.author-details {
+  margin-top: 2rem;
+  padding: 0 1rem;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.article-text {
+  font-size: 1.6rem;
+  color: var(--text-secondary);
+  font-weight: 300;
 }
