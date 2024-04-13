@@ -87,6 +87,14 @@ body {
   z-index: 999;
 }
 
+.header-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
+}
+
 .nav-lists {
   display: flex;
   gap: 4rem;
