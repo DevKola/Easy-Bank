@@ -249,6 +249,10 @@
   .features-heading {
     text-align: center;
   }
+
+  .features-info {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 531px) {
@@ -321,7 +325,7 @@
 
 @media only screen and (max-width: 391px) {
   .features {
-    height: 114vh;
+    height: 120vh;
   }
 }
 
@@ -332,6 +336,10 @@
 
   .hero-info {
     bottom: -17%;
+  }
+
+  .features {
+    height: 150vh;
   }
 }
 
