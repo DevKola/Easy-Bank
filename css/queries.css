@@ -14,7 +14,8 @@
   }
 
   .hero-img-bg {
-    top: 4%;
+    top: -30%;
+    width: 80%;
   }
 }
 
@@ -42,7 +43,7 @@
   }
 
   .hero {
-    height: 42vh;
+    height: 100vh;
   }
 }
 
