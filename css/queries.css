@@ -294,7 +294,7 @@
 
 @media only screen and (max-width: 450px) {
   .hero {
-    height: 125vh;
+    height: 110vh;
   }
   /* html {
     font-size: 50%;
