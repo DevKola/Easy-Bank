@@ -158,7 +158,7 @@
 
 @media only screen and (max-width: 769px) {
   .hero {
-    height: 82vh;
+    height: 100vh;
   }
 
   .hero-img-bg-mobile {
@@ -279,17 +279,29 @@
 
 @media only screen and (max-width: 430px) {
   .hero {
-    height: 73vh;
+    height: 90vh;
+  }
+
+  .hero-img-bg-mobile {
+    top: -1%;
+  }
+
+  .hero-info {
+    bottom: 0%;
+  }
+
+  .primary-heading {
+    width: 94%;
   }
 }
 
 @media only screen and (max-width: 380px) {
   .hero {
-    height: 88vh;
+    height: 90vh;
   }
 
   .hero-info {
-    bottom: -14%;
+    bottom: -17%;
   }
 }
 
