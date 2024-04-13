@@ -38,9 +38,6 @@ The designs were created to the following widths:
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
 
     <!--  -->
-    Why choose Easybank?
-    <!--  -->
-    We leverage Open Banking to turn your bank account into your financial hub.
     Control your finances like never before.
     <!--  -->
     Online Banking Our modern web and mobile applications allow you to keep
