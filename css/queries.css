@@ -20,7 +20,7 @@
 
 @media only screen and (max-width: 1181px) {
   .hero {
-    height: 88vh;
+    height: 100vh;
   }
   .hero-img-bg {
     top: 3%;
