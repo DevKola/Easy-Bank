@@ -1,15 +1,42 @@
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1367px) {
+  .hero {
+    height: 70vh;
+  }
+
+  .hero-img-bg {
+    top: -9%;
+  }
+}
+
+@media only screen and (max-width: 1181px) {
+  .hero {
+    height: 88vh;
+  }
+  .hero-img-bg {
+    top: 3%;
+  }
+
+  .hero-mobile {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
   .hero-info {
     width: 49%;
   }
 
   .hero-img-bg {
-    top: -3%;
+    top: -2%;
     right: -31%;
+  }
+
+  .hero {
+    height: 42vh;
   }
 }
 
-@media only screen and (max-width: 910px) {
+@media only screen and (max-width: 912px) {
   .header-link {
     display: none;
   }
@@ -40,6 +67,10 @@
     align-items: center;
   }
 
+  .nav-link {
+    font-size: 1.8rem;
+  }
+
   .menu-close {
     display: block;
     cursor: pointer;
@@ -56,6 +87,7 @@
   /* Hero Section */
 
   .hero {
+    height: 39vh;
     position: relative;
     align-items: flex-start;
   }
@@ -65,8 +97,9 @@
   }
 
   .hero-mobile {
-    width: 51%;
-    top: -20px;
+    width: 58%;
+    top: -67px;
+    right: -10%;
   }
 
   .primary-heading {
@@ -75,6 +108,18 @@
 
   .hero-info {
     margin-top: 10rem;
+  }
+}
+
+@media only screen and (max-width: 854px) {
+  .hero {
+    height: 38vh;
+  }
+}
+
+@media only screen and (max-width: 821px) {
+  .hero-img-bg {
+    top: -8%;
   }
 }
 
@@ -96,6 +141,37 @@
 
   .hero-info {
     width: 50%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .hero {
+    height: 82vh;
+  }
+
+  .hero-img-bg-mobile {
+    top: -30%;
+  }
+
+  .hero-mobile {
+    width: 73%;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero-info {
+    width: 100%;
+    position: absolute;
+    bottom: -3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+  }
+
+  .primary-heading {
+    width: 100%;
   }
 }
 
@@ -154,6 +230,20 @@
   }
 }
 
+@media only screen and (max-width: 541px) {
+  .hero {
+    height: 100vh;
+  }
+
+  .hero-text {
+    width: 87%;
+  }
+
+  .hero-info {
+    bottom: -14%;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .header {
     padding: 2rem;
@@ -174,9 +264,37 @@
     height: 105vh;
   }
 }
-/* 
+
 @media only screen and (max-width: 430px) {
   .hero {
     height: 73vh;
   }
-} */
+}
+
+@media only screen and (max-width: 380px) {
+  .hero {
+    height: 88vh;
+  }
+
+  .hero-info {
+    bottom: -14%;
+  }
+}
+
+@media only screen and (max-width: 281px) {
+  .hero {
+    height: 86vh;
+  }
+
+  .hero-info {
+    bottom: -18%;
+  }
+
+  .primary-heading {
+    font-size: 3.6rem;
+  }
+
+  .hero-text {
+    font-size: 1.7rem;
+  }
+}
