@@ -185,6 +185,10 @@
   .primary-heading {
     width: 100%;
   }
+
+  .footer-cont {
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -254,6 +258,39 @@
   .features-info {
     width: 100%;
     text-align: center;
+  }
+
+  .footer-btns,
+  .footer-logos,
+  .footer-links-cont {
+    height: fit-content;
+  }
+  .footer-logos {
+    flex-wrap: wrap;
+    gap: 5rem;
+    flex: 0 0 255px;
+    justify-content: center;
+  }
+
+  .footer-links-cont {
+    flex: 0 0 155px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-links {
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .footer-btns {
+    height: fit-content;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footer-socials {
+    gap: 2rem;
   }
 }
 
