@@ -97,7 +97,7 @@
   /* Hero Section */
 
   .hero {
-    height: 39vh;
+    height: 100vh;
     position: relative;
     align-items: flex-start;
   }
