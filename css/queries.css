@@ -8,6 +8,16 @@
   }
 }
 
+@media only screen and (max-width: 1281px) {
+  .hero {
+    height: 100vh;
+  }
+
+  .hero-img-bg {
+    top: 4%;
+  }
+}
+
 @media only screen and (max-width: 1181px) {
   .hero {
     height: 88vh;
