@@ -161,6 +161,10 @@
   .hero-info {
     width: 50%;
   }
+
+  .secondary-heading {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 769px) {
@@ -195,10 +199,6 @@
 
   .footer-cont {
     justify-content: center;
-  }
-
-  .secondary-heading {
-    text-align: center;
   }
 }
 
