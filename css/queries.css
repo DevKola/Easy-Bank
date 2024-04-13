@@ -163,6 +163,7 @@
   }
 
   .secondary-heading {
+    width: 100%;
     text-align: center;
   }
 }
@@ -302,6 +303,18 @@
 
   .footer-socials {
     gap: 2rem;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: fit-content;
+  }
+
+  .secondary-heading {
+    width: 100%;
+    text-align: center;
   }
 }
 
