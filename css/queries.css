@@ -24,7 +24,8 @@
     height: 100vh;
   }
   .hero-img-bg {
-    top: 3%;
+    top: -30%;
+    width: 80%;
   }
 
   .hero-mobile {
