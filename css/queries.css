@@ -301,7 +301,7 @@
   } */
 
   .features {
-    height: 150vh;
+    height: 175vh;
   }
 }
 
@@ -310,9 +310,9 @@
     height: 100vh;
   }
 
-  .features {
+  /* .features {
     height: 150vh;
-  }
+  } */
 }
 
 @media only screen and (max-width: 430px) {
@@ -332,15 +332,15 @@
     width: 94%;
   }
 
-  .features {
+  /* .features {
     height: 150vh;
-  }
+  } */
 }
 
 @media only screen and (max-width: 391px) {
-  .features {
+  /* .features {
     height: 120vh;
-  }
+  } */
 }
 
 @media only screen and (max-width: 380px) {
@@ -352,15 +352,15 @@
     bottom: -17%;
   }
 
-  .features {
+  /* .features {
     height: 150vh;
-  }
+  } */
 }
 
 @media only screen and (max-width: 376px) {
-  .features {
+  /* .features {
     height: 155vh;
-  }
+  } */
 }
 
 @media only screen and (max-width: 281px) {
