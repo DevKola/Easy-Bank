@@ -273,13 +273,13 @@
 
 @media only screen and (max-width: 450px) {
   .hero {
-    height: 105vh;
+    height: 100vh;
   }
 }
 
 @media only screen and (max-width: 430px) {
   .hero {
-    height: 90vh;
+    height: 95vh;
   }
 
   .hero-img-bg-mobile {
@@ -297,7 +297,7 @@
 
 @media only screen and (max-width: 380px) {
   .hero {
-    height: 90vh;
+    height: 95vh;
   }
 
   .hero-info {
@@ -307,7 +307,7 @@
 
 @media only screen and (max-width: 281px) {
   .hero {
-    height: 86vh;
+    height: 90vh;
   }
 
   .hero-info {
